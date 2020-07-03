@@ -1,0 +1,15 @@
+{
+    "name": "GM.UnityFirebaseTool.Test",
+    "references": [
+        "GUID:dd3ef2233d9d0b446bdb1b4299f4678e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

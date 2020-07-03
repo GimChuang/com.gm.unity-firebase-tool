@@ -1,0 +1,8 @@
+{
+    "name": "com.gm.unity-firebase-tool",
+    "displayName": "Unity Firebase Tool",
+    "version": "0.0.1",
+    "unity": "2019.3",
+    "description": "Tools for calling Firebase Firestore REST API with UnityWebRequest",
+	"dependencies": {}
+}
