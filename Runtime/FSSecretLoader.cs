@@ -12,7 +12,6 @@ namespace GM.FirebaseTool
         void Awake()
         {
             LoadFSSecret();
-            Debug.Log(secret.baseUrl);
 
             // Singleton
             if (Instance == null)
@@ -32,7 +31,6 @@ namespace GM.FirebaseTool
             TextAsset jsonTextFile = Resources.Load<TextAsset>("Secret/FSSecret");
             string jsonText = jsonTextFile.text;
             secret = JsonUtility.FromJson<FSSecret>(jsonText);
-            Debug.Log(jsonText);
         }
     }
 
