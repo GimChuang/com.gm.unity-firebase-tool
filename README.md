@@ -18,16 +18,17 @@ In the `dependencies` section of your 'manifest.json', add
 ```
 (don't forget to add a comma if you need one)
 
+
 Note
 ---
-You'll need to add a 'Resources' folder, a 'Resources/Secret' folder, and a 'FSSecret.json' file to run the test scenes.
+You'll need to add a `Resources` folder, a `Resources/Secret` folder, and a `FSSecret.json` file to run the test scenes.
 ```
 Assets
   ├ Resources
   | ├ Secret
   | | ├ FSSecret.json
 ```
-And the 'FSSecret.json' should be like
+And the `FSSecret.json` should be like
 ```
 {
 	"baseUrl": "https://firestore.googleapis.com/v1/projects/<your-firebase-project-id>/databases/(default)/documents"
