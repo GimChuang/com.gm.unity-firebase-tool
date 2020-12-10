@@ -22,13 +22,19 @@ namespace GM.FirebaseTool
 
         }
 
-        // Get all documents in a collection
-        public void GetAllDocsInCollection(string _url)
+        // Get a particular Document
+        public void GetDoc(string _documentUrl)
         {
-            StartCoroutine(E_GetAllDocsInCollection(_url));
+            StartCoroutine(E_GetDocOrAllDocsInCollection(_documentUrl));
         }
 
-        IEnumerator E_GetAllDocsInCollection(string _url)
+        // Get all documents in a collection
+        public void GetAllDocsInCollection(string _collectionUrl)
+        {
+            StartCoroutine(E_GetDocOrAllDocsInCollection(_collectionUrl));
+        }
+
+        IEnumerator E_GetDocOrAllDocsInCollection(string _url)
         {
             if (isRoutineRunning)
             {
