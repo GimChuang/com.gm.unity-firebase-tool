@@ -7,7 +7,7 @@ Tools for calling Firebase Firestore REST API with UnityWebRequest.
 
 
 I started this project because I need to use [Firestore](https://firebase.google.com/docs/firestore) as my database but the official Firebase Unity SDK only supports [Realtime Database](https://firebase.google.com/docs/database).
-This tool currently provides very basic functions to create a [document](https://firebase.google.com/docs/firestore/data-model#documents) and retrieve all documents in a [collection](https://firebase.google.com/docs/firestore/data-model#collections). The functions are just calling Firestore REST API with UnityWebRequest internally.
+This tool currently provides very basic functions to create a [document](https://firebase.google.com/docs/firestore/data-model#documents) and retrieve a specific document or all documents in a [collection](https://firebase.google.com/docs/firestore/data-model#collections). The functions are just calling Firestore REST API with UnityWebRequest internally.
 
 
 How to Install with Unity's Package Manager
